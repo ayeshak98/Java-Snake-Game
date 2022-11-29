@@ -195,13 +195,13 @@ public class Board extends JPanel implements ActionListener {
 				downDirection = false;
 			}
 
-			if ((key == KeyDirection.VK_UP) && (!downDirection)) {
+			if ((key == KeyEvent.VK_UP) && (!downDirection)) {
 				upDirection = true;
 				rightDirection = false;
 				leftDirection = false;
 			}
 
-			if ((key == KeyDirection.VK_DOWN) && (!upDirection)) {
+			if ((key == KeyEvent.VK_DOWN) && (!upDirection)) {
 				downDirection = true;
 				rightDirection = false;
 				leftDirection = false;
